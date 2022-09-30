@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import {CgMenuRight} from 'react-icons/cg'
-const Navbar: React.FC = () => {
+const Navbar: React.FC= () => {
         const [sticky, setSticky] =  useState(false);
         const [open, setOpen] =  useState(false);
         const menuLinks = [
