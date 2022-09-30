@@ -32,10 +32,10 @@ const Info: React.FC = () => {
   ]
   return (
     <section id='info' className='py-10 relative'>
-      <div className=' text-gray-100 bg-[#24222c] min-h-screen sm:text-4xl text-center'>
-        <h2 className=' md:text-5xl font-semibold font-sans '>HYROS is hyper-accurate</h2>
-        <h2 className=' md:text-5xl font-semibold mt-2 font-sans' >tracking for digital businesses</h2>
-        <p className=' sm:text-2xlfont-semibold mt-12 text-2xl'>See your customer's journey. Every click and purchase your <br />customer makes is tracked and easy to view</p>
+      <div className=' text-gray-100 bg-[#24222c] min-h-min sm:text-4xl text-center'>
+        <h1 className=' md:text-5xl font-semibold font-sans'>HYROS is hyper-accurate</h1>
+        <h1 className=' md:text-5xl font-semibold mt-2 font-sans' >tracking for digital businesses</h1>
+        <p className=' sm:text-2xlfont-semibold mt-12 text-2xl'>See your customer's journey. Every click and purchase your <br />customer makes is tracked and easy to view</p> 
         <div className='flex items-center justify-center mt-28 gap-10 flex-wrap'>
           {
             info?.map((info, i) => (
