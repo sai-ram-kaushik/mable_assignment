@@ -5,7 +5,7 @@ const Hero: React.FC = () => {
   return (
     <section id='featuring' className='min-h-screen flex py-10 md:flex-row flex-col'>
       <div className='flex-1 flex item-center justify-center h-full'>
-        <img src={hero} alt="image" className='md:w-8/12 h-full object-cover mt-48' />
+        <img src={hero} alt="image" className='md:w-8/12 h-full object-cover mt-72' />
       </div>
       <div className='flex-1'>
         <div className='md:text-left text-center mt-28'>
