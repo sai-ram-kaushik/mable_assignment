@@ -8,6 +8,8 @@ import Map from './components/Map'
 import Stop from './components/Stop';
 import Ltv from './components/Ltv';
 import Journey from './components/Journey';
+import Models from './components/Models';
+import LifeTime from './components/LifeTime';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <Stop />
       <Ltv />
       <Journey />
+      <Models />
+      <LifeTime />
     </div>
   );
 }
